@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Авторизация</title>
+</head>
+<body>
+<form method="post" action="auth">
+    <input type="text" placeholder="log" name="login" required><br>
+    <input type="password" placeholder="pass" name="password" pattern="(?=.*[0-9])[0-9]{5,}" required><br>
+    <button type="submit">Enter</button>
+</form>
+</body>
+</html>
